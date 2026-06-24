@@ -1,0 +1,162 @@
+.brand-story {
+  background: #000;
+  padding: 120px 8%;
+}
+
+.brand-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.brand-image {
+  flex: 1;
+}
+
+.brand-image img {
+  width: 100%;
+  max-width: 550px;
+  border-radius: 20px;
+  border: 2px solid #d4af37;
+  transition: 0.4s;
+}
+
+.brand-image img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 30px rgba(212,175,55,0.4);
+}
+
+.brand-content {
+  flex: 1;
+}
+
+.brand-tag {
+  color: #d4af37;
+  letter-spacing: 3px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.brand-content h2 {
+  color: white;
+  font-size: 3rem;
+  margin: 20px 0;
+  line-height: 1.2;
+}
+
+.brand-content p {
+  color: #cfcfcf;
+  line-height: 1.9;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.brand-stats {
+  display: flex;
+  gap: 40px;
+  margin: 40px 0;
+}
+
+.brand-stats h3 {
+  color: #d4af37;
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.brand-stats span {
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+.brand-btn {
+  background: #d4af37;
+  color: black;
+  border: none;
+  padding: 15px 35px;
+  border-radius: 40px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.brand-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 25px rgba(212,175,55,0.6);
+}
+
+/* Tablet */
+
+@media (max-width: 1024px) {
+
+  .brand-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .brand-stats {
+    justify-content: center;
+  }
+
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .brand-story {
+    padding: 80px 20px;
+  }
+
+  .brand-content h2 {
+    font-size: 2rem;
+  }
+
+  .brand-stats {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+}
+.brand-stats{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+  gap:25px;
+  margin-top:35px;
+}
+
+.brand-stats div{
+  background:#111;
+  border:1px solid #d4af37;
+  border-radius:12px;
+  padding:20px;
+  text-align:center;
+}
+
+.brand-stats h3{
+  color:#d4af37;
+  font-size:1.8rem;
+  margin-bottom:8px;
+}
+
+.brand-stats span{
+  color:#ddd;
+  font-size:0.9rem;
+}
+.brand-btn{
+  display:inline-block;
+  margin-top:30px;
+  padding:15px 35px;
+  background:#d4af37;
+  color:#000;
+  border:none;
+  border-radius:30px;
+  font-weight:700;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.brand-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 0 20px rgba(212,175,55,0.5);
+}

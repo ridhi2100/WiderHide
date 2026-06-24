@@ -1,0 +1,212 @@
+.belts-page{
+  background:#000;
+  color:white;
+  padding:60px 8%;
+}
+
+.belts-page h1{
+  text-align:center;
+  color:#d4af37;
+  font-size:3rem;
+  margin-bottom:60px;
+}
+
+/* Product Box */
+
+.product-box{
+  display:flex;
+  gap:60px;
+  align-items:flex-start;
+  margin-bottom:100px;
+  padding-bottom:50px;
+  border-bottom:1px solid rgba(212,175,55,0.3);
+}
+
+/* Left Side */
+
+.left-side{
+  flex:1;
+}
+
+.main-img{
+  width:100%;
+  max-width:700px;
+  height:500px;
+  object-fit:contain;
+  background:#fff;
+  border-radius:15px;
+  display:block;
+}
+
+.thumb-row{
+  display:flex;
+  gap:15px;
+  margin-top:20px;
+  overflow-x:auto;
+  padding-bottom:10px;
+}
+
+.thumb-row::-webkit-scrollbar{
+  height:8px;
+}
+
+.thumb-row::-webkit-scrollbar-thumb{
+  background:#d4af37;
+  border-radius:20px;
+}
+
+.thumb{
+  width:90px;
+  height:90px;
+  object-fit:cover;
+  border:2px solid #d4af37;
+  border-radius:10px;
+  cursor:pointer;
+  flex-shrink:0;
+  transition:.3s;
+}
+
+.thumb:hover{
+  transform:scale(1.05);
+}
+
+/* Right Side */
+
+.right-side{
+  flex:1;
+  max-width:550px;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.right-side h2{
+  font-size:3rem;
+  line-height:1.2;
+  min-height:120px;
+  margin-bottom:15px;
+}
+
+.right-side h3{
+  color:#d4af37;
+  font-size:2rem;
+  margin-bottom:25px;
+}
+
+.right-side p{
+  color:#ddd;
+  line-height:1.8;
+  min-height:110px;
+  margin-bottom:25px;
+}
+
+.right-side ul{
+  list-style:none;
+  margin-bottom:35px;
+}
+
+.right-side ul li{
+  margin-bottom:12px;
+  font-size:1.15rem;
+}
+
+.right-side button{
+  background:#d4af37;
+  color:#000;
+  border:none;
+  padding:16px 45px;
+  border-radius:40px;
+  font-size:20px;
+  font-weight:700;
+  cursor:pointer;
+  transition:.3s;
+}
+
+.right-side button:hover{
+  background:#f5c542;
+  transform:translateY(-3px);
+}
+
+/* Tablet */
+
+@media(max-width:1024px){
+
+  .product-box{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .left-side,
+  .right-side{
+    width:100%;
+    max-width:100%;
+  }
+
+  .main-img{
+    max-width:100%;
+  }
+
+  .right-side h2{
+    min-height:auto;
+  }
+
+  .right-side p{
+    min-height:auto;
+  }
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+  .belts-page{
+    padding:40px 20px;
+  }
+
+  .belts-page h1{
+    font-size:2rem;
+    margin-bottom:40px;
+  }
+
+  .product-box{
+    gap:30px;
+    text-align:center;
+  }
+
+  .main-img{
+    height:300px;
+  }
+
+  .thumb{
+    width:70px;
+    height:70px;
+  }
+
+  .right-side{
+    align-items:center;
+  }
+
+  .right-side h2{
+    font-size:2rem;
+    min-height:auto;
+  }
+
+  .right-side h3{
+    font-size:1.7rem;
+  }
+
+  .right-side p{
+    font-size:1rem;
+    min-height:auto;
+  }
+
+  .right-side ul{
+    text-align:left;
+  }
+
+  .right-side button{
+    width:220px;
+    font-size:18px;
+  }
+}

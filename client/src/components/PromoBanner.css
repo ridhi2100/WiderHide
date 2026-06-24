@@ -1,0 +1,48 @@
+.promo-overlay h1 {
+  font-size: 5rem;
+  color: white;
+  margin-bottom: 5px; /* reduced gap */
+}
+
+.promo-overlay h2 {
+  font-size: 3rem;
+  color: #d4af37;
+  margin-bottom: 15px; /* reduced gap */
+}
+
+.promo-overlay p {
+  font-size: 1.2rem;
+  max-width: 650px;
+  margin: 0 auto 35px;
+  line-height: 1.8;
+}
+
+.promo-btn {
+  background: white;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  border: none;
+  padding: 18px 50px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.promo-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+  background-color: black;
+  color: white;
+}
+.pie{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.promo-tag{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 30px;
+}
