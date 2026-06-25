@@ -9,9 +9,9 @@ function Navbar() {
          <li>
           <Link to="/">Home</Link>
         </li>
-         <li>
-          <Link to="/Wallets">Wallets</Link>
-        </li>
+         {/* <li> */}
+          {/* <Link to="/Wallets">Wallets</Link>
+        </li> */}
         <li>
           <Link to="/Belts">Belts</Link>
         </li>

@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 import Men from "./pages/Men";
 import Women from "./pages/Women";
 import Belts from "./pages/Belts";
-import Wallets from "./pages/Wallets";
+// import Wallets from "./pages/Wallets";
 import Contact from "./pages/contact";
 import BeltDetails from "./pages/beltDetails";
 function App() {
@@ -30,20 +30,15 @@ function App() {
           element={<Women />}
         />
 
-      
-        <Route
-          path="/collections"
-          element={<Collections />}
-        />
         <Route
   path="/belts"
   element={<Belts />}
 />
 
-<Route
+{/* <Route
   path="/wallets"
   element={<Wallets />}
-/>
+/> */}
 <Route
   path="/contact"
   element={<Contact />}

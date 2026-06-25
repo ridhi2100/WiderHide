@@ -21,14 +21,14 @@ function Categories() {
           </div>
         </Link>
 
-        <Link to="/wallets" className="category-card">
+        {/* <Link to="/wallets" className="category-card">
           <img src={walletImg} alt="Wallets" />
 
           <div className="category-info">
             <h3>Wallets</h3>
             <p>Luxury Handcrafted Wallets</p>
           </div>
-        </Link>
+        </Link> */}
 
       </div>
 
