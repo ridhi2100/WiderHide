@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./Categories.css";
+import "./categories.css";
 
 import beltImg from "../pages/images/kidBellet.jpeg";
 import walletImg from "../pages/images/menWallet.png";
