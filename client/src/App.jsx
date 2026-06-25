@@ -7,7 +7,6 @@ import {
 import Home from "./pages/Home";
 import Men from "./pages/Men";
 import Women from "./pages/Women";
-import Collections from "./pages/Collections";
 import Belts from "./pages/Belts";
 import Wallets from "./pages/Wallets";
 import Contact from "./pages/contact";
